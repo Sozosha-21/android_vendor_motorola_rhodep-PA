@@ -18,37 +18,33 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/motorola/rhodep/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/motorola/rhodep/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/motorola/rhodep/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
-    vendor/motorola/rhodep/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/motorola/rhodep/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/motorola/rhodep/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/rhodep/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
-    vendor/motorola/rhodep/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/motorola/rhodep/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
     vendor/motorola/rhodep/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/motorola/rhodep/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/motorola/rhodep/proprietary/system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/motorola/rhodep/proprietary/system_ext/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdpmctmgr.so \
-    vendor/motorola/rhodep/proprietary/system_ext/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdpmfdmgr.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdiag_system.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdpmframework.so \
-    vendor/motorola/rhodep/proprietary/system_ext/lib/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdpmtcm.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib/vendor.qti.hardware.dpmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.dpmservice@1.0.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib/vendor.qti.hardware.dpmservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.dpmservice@1.1.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
-    vendor/motorola/rhodep/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
-    vendor/motorola/rhodep/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so \
-    vendor/motorola/rhodep/proprietary/system_ext/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmtcm.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib64/vendor.qti.hardware.dpmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.dpmservice@1.0.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib64/vendor.qti.hardware.dpmservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.dpmservice@1.1.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.1.so \
     vendor/motorola/rhodep/proprietary/system_ext/lib64/vendor.qti.qesdhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qesdhal@1.0.so \
@@ -70,7 +66,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/motorola/rhodep/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/motorola/rhodep/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
+    vendor/motorola/rhodep/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service.sec:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service.sec \
     vendor/motorola/rhodep/proprietary/vendor/bin/egis_ident:$(TARGET_COPY_OUT_VENDOR)/bin/egis_ident \
+    vendor/motorola/rhodep/proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.desktop@2.0-service \
     vendor/motorola/rhodep/proprietary/vendor/bin/hw/qcrilNrd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrilNrd \
     vendor/motorola/rhodep/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/motorola/rhodep/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
@@ -185,6 +183,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
+    vendor/motorola/rhodep/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.sec.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -195,10 +194,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
+    vendor/motorola/rhodep/proprietary/vendor/etc/init/init.nfc.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.sec.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
+    vendor/motorola/rhodep/proprietary/vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.desktop@2.0-service.rc \
+    vendor/motorola/rhodep/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
@@ -223,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
     vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
     vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
     vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
     vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
     vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
@@ -244,9 +245,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/motorola/rhodep/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/motorola/rhodep/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
+    vendor/motorola/rhodep/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
+    vendor/motorola/rhodep/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/config/11.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/11.0_config.sql \
+    vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/config/12.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/12.0_config.sql \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/config/6.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/6.0_config.sql \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/config/9.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/9.0_config.sql \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/0_initial.sql \
@@ -280,6 +284,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/38_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/38_version_qcrildb.sql \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/39_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/39_version_qcrildb.sql \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/3_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/3_version_qcrildb.sql \
+    vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/40_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/40_version_qcrildb.sql \
+    vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/41_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/41_version_qcrildb.sql \
+    vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/42_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/42_version_qcrildb.sql \
+    vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/43_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/43_version_qcrildb.sql \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/4_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/4_version_qcrildb.sql \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/5_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/5_version_qcrildb.sql \
     vendor/motorola/rhodep/proprietary/vendor/etc/qcril_database/upgrade/ecc/6_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/ecc/6_version_qcrildb.sql \
@@ -294,6 +302,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml \
     vendor/motorola/rhodep/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml \
     vendor/motorola/rhodep/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml \
+    vendor/motorola/rhodep/proprietary/vendor/etc/sec_s3nrn4v_hwreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn4v_hwreg.bin \
+    vendor/motorola/rhodep/proprietary/vendor/etc/sec_s3nrn4v_swreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn4v_swreg.bin \
     vendor/motorola/rhodep/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/motorola/rhodep/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/motorola/rhodep/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
@@ -329,6 +339,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/config/stk3a5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3a5x_0.json \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/config/stk3a5x_0_DVT1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3a5x_0_DVT1.json \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/config/stk3a5x_0_DVT2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3a5x_0_DVT2.json \
+    vendor/motorola/rhodep/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/proto/descriptor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/descriptor.proto \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/proto/mot_barocal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/mot_barocal.proto \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/proto/mot_camgest.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/mot_camgest.proto \
@@ -433,7 +444,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/firmware/a660_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.elf \
     vendor/motorola/rhodep/proprietary/vendor/firmware/a660_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.mdt \
     vendor/motorola/rhodep/proprietary/vendor/firmware/aw882xx_pid_2113_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_pid_2113_acf.bin \
+    vendor/motorola/rhodep/proprietary/vendor/firmware/aw_skt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw_skt.bin \
+    vendor/motorola/rhodep/proprietary/vendor/firmware/mot_dw9781c.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9781c.prog \
+    vendor/motorola/rhodep/proprietary/vendor/firmware/sec_s3nrn4v_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn4v_firmware.bin \
     vendor/motorola/rhodep/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.dsi.ant@1.0-impl.so \
@@ -474,13 +489,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti_2_1.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-hidlclient.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
-    vendor/motorola/rhodep/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmqmihal.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
@@ -491,6 +506,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/motorola/rhodep/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
@@ -742,6 +758,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiser.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libaidenoiserv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiserv2.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlenginev2.so \
@@ -807,6 +824,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmdmcutback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmcutback.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmfec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfec.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminkdescriptor.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_bestats.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
@@ -819,6 +837,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotext_inf.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmotohid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotohid.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/libmotoisdataqueue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotoisdataqueue.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libnative-api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnative-api.so \
@@ -835,6 +854,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowercore.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
@@ -909,6 +929,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/motorola.hardware.camera.desktop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.desktop@1.0.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/motorola.hardware.camera.desktop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.desktop@2.0.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/qcrilMarshal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrilMarshal.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/qcrild_libqcrilnrutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_libqcrilnrutils.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/qtiril-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtiril-utils.so \
@@ -981,6 +1004,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.7.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.1.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.2.so \
@@ -1001,12 +1025,24 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.vpp@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@2.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callcapability@1.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.configservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.configservice@1.0.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.configservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.configservice@1.1.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.connection@1.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@1.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@1.1.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@2.0.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@2.1.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@2.2.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@2.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcssip@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcssip@1.0.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcssip@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcssip@1.1.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcssip@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcssip@1.2.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcsuce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsuce@1.0.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcsuce@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsuce@1.1.so \
+    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.ims.rcsuce@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.rcsuce@1.2.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
@@ -1027,23 +1063,26 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     ims \
     qcrilmsgtunnel \
-    tcmclient \
     uimgbalibrary \
     uimgbamanagerlibrary \
     uimservicelibrary \
     moto-ims-ext \
     moto-telephony \
     com.android.hotwordenrollment.common.util \
-    com.qti.dpmframework \
-    dpmapi \
     qcrilhook \
     vendor.qti.hardware.alarm-V1.0-java \
+    vendor.qti.ims.configservice-V1.0-java \
+    vendor.qti.ims.configservice-V1.1-java \
     vendor.qti.ims.connection-V1.0-java \
+    vendor.qti.ims.factory-V1.1-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
+    vendor.qti.ims.factory-V2.2-java \
     vendor.qti.ims.rcssip-V1.0-java \
     vendor.qti.ims.rcssip-V1.1-java \
+    vendor.qti.ims.rcssip-V1.2-java \
     vendor.qti.ims.rcsuce-V1.0-java \
     vendor.qti.ims.rcsuce-V1.1-java \
+    vendor.qti.ims.rcsuce-V1.2-java \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.diag.hal.service
